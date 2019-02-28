@@ -8,21 +8,18 @@ body.innerHTML = `
       <img id="MYFACE" src="./images/26113866_1672740916080256_4454446500120165560_n.jpg" alt="My Face">
       <h1 class="text-uppercase">Dakota Cookson</h1>
 
+
     </div>
     <div class="col-lg-6 col-md-6 content-item content-item-1 background tm-white-translucent-bg">
       <h2 class="main-title text-center dark-blue-text"> Welcome</h2>
-      <p>I'm Quirky, nerdy, and Driven to anyilize and solve anything put infront of me Im on an upwards climb and
-        grow along with those around me, I have an insatiable voracity for knodelege </p>
+      <p>I'm quirky, nerdy, and driven to solve anything put in front of me I'm on an upward climb and grow along with those around me, also I have an insatiable voracity for knowledge.</p>
     </div>
   </section>
 
   <section class="col-md-12 content padding tm-equal-col-container" id="services">
     <div class="col-lg-6 col-md-6 col-sm-12 content-item tm-black-translucent-bg tm-services-section-padding">
       <h2 class="main-title text-center dark-blue-text">Some Backround</h2>
-      <p>ever since i was young i had a fasination with tecnology I had started watching my dad fix computers when i
-        was 5 and i was fixiated on his craft shortly after he got into devlopment and altough it took me awhile i
-        became fascinated with how the power of the typed workd can influnce the fundementels of evrything we do on a
-        computer</p>
+      <p>Ever since I was young I had a fascination with technology, I had started watching my dad fix computers when I was five and I was fixated on his craft, shortly after he got into development and although it took me awhile I became fascinated with how the power of the typed worked can influence the fundamentals of everything we do on a computer.</p>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 tm-white-translucent-bg tm-services-section-padding tm-box-center">
 
