@@ -76,7 +76,7 @@ body.innerHTML = `
   <section class="col-md-12 content" id="contact">
     <div class="col-lg-6 col-md-6 content-item tm-content-box tm-black-translucent-bg">
       <h2 class="contact-title">Contact Info</h2>
-      <p>Thank you for Taking the time to look at my website I hope to hear from you soon, Have a Good Day</p>
+      <p>Thank you for taking the time to look at my website I hope to hear from you soon, have a good day.</p>
       <p>
         Tel: 207-692-3008<br>
         Email: dakota.cookson1995@gmail.com
