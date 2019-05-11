@@ -5,7 +5,7 @@ body.innerHTML = `
   <section class="col-md-12 content" id="home">
     <div class="col-lg-6 col-md-6 content-item tm-black-translucent-bg tm-logo-box">
       <!-- <i class="fa fa-snowflake-o fa-4x tm-logo"></i> -->
-      <img id="MYFACE" src="./images/26113866_1672740916080256_4454446500120165560_n.jpg" alt="My Face">
+      <img id="MYFACE" src="./images/2019_03_19_C29_0680_1.jpg" alt="My Face">
       <h1 class="text-uppercase">Dakota Cookson</h1>
 
 
@@ -37,11 +37,11 @@ body.innerHTML = `
 
       <div class="tm-right-col">
         <div class="tm-border-box tm-pink-border-tr tm-img-box-3">
-          <img src="./images/26113866_1672740916080256_4454446500120165560_n.jpg" alt="Image 2"
+          <img src="./images/Captttture.PNG" alt="Image 2"
             class="tm-img tm-img-tr">
         </div>
         <div class="tm-border-box tm-gray-border-tl tm-img-box-4">
-          <img src="./images/26113866_1672740916080256_4454446500120165560_n.jpg" alt="Image 4"
+          <img src="./images/Caeeeepture.PNG" alt="Image 4"
             class="tm-img tm-img-br">
         </div>
       </div>
@@ -59,15 +59,27 @@ body.innerHTML = `
         <h2 id="Proj1" class="text-center tm-white-text tm-section-3-header">Projects</h2>
         <div class="col-md-4 col-lg-4">
           <i class="fa fa-code fa-4x tm-fa-icon"></i>
-          <button class="centerButtontext"> Front End Capstone </button>
+          <button onclick="Frontpush()" class="centerButtontext"> Front End Capstone </button>
+          <div>
+          PIP is a single page application inspired by my mother, an educator 
+          who works with autistic youth. The app was designed to help bolster the 
+          social ability of students with high functioning autism and improving their social 
+          skills through interactive training. Built using JavaScript, JSON, Bootstrap, and HTML5.
+          </div>
         </div>
         <div class="col-md-4 col-lg-4">
           <i class="fa fa-code fa-4x tm-fa-icon"></i>
-          <button class="centerButtontext">Personal Project</button>
+          <button onclick="Personalpush()" class="centerButtontext">Personal Project</button>
+          <div> Javascript based web adventure game. Currently at demo phase. </div>  
         </div>
         <div class="col-md-4 col-lg-4">
           <i class="fa fa-code fa-4x tm-fa-icon"></i>
-          <button class="centerButtontext">Back End Capstone</button>
+          <button onclick="backpush()" class="centerButtontext">Back End Capstone</button>
+          <div>Code Coffer is a multi-page MVC application, i built code coffer 
+          in part due to frustration  of not having a localized source for all my 
+          code snips and in part because i disliked how rough stack overflow looked so  I 
+          built  a code repository with multi-user functionality and support
+           for hidden and Favorited content created with c# and entity framework</div>
         </div>
       </div>
     </div>
@@ -122,3 +134,13 @@ body.innerHTML = `
     <a href="https://www.linkedin.com/in/dakota-cookson-6003b0178/" class="linkedin"><i
         class="fa fa-linkedin"></i></a>
     <a href="https://www.youtube.com/user/zazitheangel" class="youtube"><i class="fa fa-youtube"></i></a>`
+
+    function backpush() {
+      location.href = "https://github.com/dakotacookson/Code-coffer" ;
+      }
+      function Frontpush() {
+        location.href = "https://github.com/dakotacookson/Social-Stories-Aplication" ;
+        }
+        function Personalpush() {
+          location.href = "http://firsttextadventure.atwebpages.com/" ;
+          }
