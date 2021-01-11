@@ -69,8 +69,8 @@ body.innerHTML = `
         </div>
         <div class="col-md-4 col-lg-4">
           <i class="fa fa-code fa-4x tm-fa-icon"></i>
-          <button class="centerButtontext">Personal Project</button>
-          <div> Javascript based web adventure game. Currently at demo phase. </div>  
+          <button onclick="perspush()" class="centerButtontext">Personal Project</button>
+          <div>a Powershell script to make multifile transfer much faster </div>  
         </div>
         <div class="col-md-4 col-lg-4">
           <i class="fa fa-code fa-4x tm-fa-icon"></i>
@@ -134,9 +134,14 @@ body.innerHTML = `
     <a href="https://www.linkedin.com/in/dakota-cookson-6003b0178/" class="linkedin"><i class="fa fa-linkedin"></i></a>
    </div>`
 function backpush() {
-      location.href = "https://github.com/dakotacookson/Code-coffer" ;
+      location.href = "https://github.com/dakotacookson/the-cofer-project" ;
       };
 
       function Frontpush() {
-location.href ="https://github.com/dakotacookson/Social-Stories-Aplication" ;
-        };
+        location.href ="https://github.com/dakotacookson/Social-Stories-Aplication" ;
+                };
+
+                function  perspush() {
+                  location.href ="https://github.com/dakotacookson/Multi-Threaded-File-Transfer-Powershell-Scrpit" ;
+                          };
+
