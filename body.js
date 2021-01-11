@@ -1,4 +1,3 @@
-
 let body = document.querySelector("#body")
 body.innerHTML = `
   <div class="container w3-center w3-animate-right">
