@@ -69,7 +69,7 @@ body.innerHTML = `
         </div>
         <div class="col-md-4 col-lg-4">
           <i class="fa fa-code fa-4x tm-fa-icon"></i>
-          <button onclick="Personalpush()" class="centerButtontext">Personal Project</button>
+          <button class="centerButtontext">Personal Project</button>
           <div> Javascript based web adventure game. Currently at demo phase. </div>  
         </div>
         <div class="col-md-4 col-lg-4">
@@ -132,10 +132,11 @@ body.innerHTML = `
   <div class="icon-bar">
     <a href="https://github.com/dakotacookson?tab=projects" class="github"><i class="fa fa-github"></i></a>
     <a href="https://www.linkedin.com/in/dakota-cookson-6003b0178/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-   
+   </div>
 function backpush() {
       location.href = "https://github.com/dakotacookson/Code-coffer" ;
-      }
+      };
+
       function Frontpush() {
-        location.href = "https://github.com/dakotacookson/Social-Stories-Aplication" ;
+location.href ="https://github.com/dakotacookson/Social-Stories-Aplication" ;
         };
