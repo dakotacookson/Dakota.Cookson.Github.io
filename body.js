@@ -131,9 +131,9 @@ body.innerHTML = `
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <div class="icon-bar">
     <a href="https://github.com/dakotacookson?tab=projects" class="github"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/dakota-cookson-6003b0178/" class="linkedin"><i
-        class="fa fa-linkedin"></i></a>
-    function backpush() {
+    <a href="https://www.linkedin.com/in/dakota-cookson-6003b0178/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+   
+function backpush() {
       location.href = "https://github.com/dakotacookson/Code-coffer" ;
       }
       function Frontpush() {
