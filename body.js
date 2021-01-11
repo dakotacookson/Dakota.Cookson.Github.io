@@ -138,5 +138,4 @@ function backpush() {
       }
       function Frontpush() {
         location.href = "https://github.com/dakotacookson/Social-Stories-Aplication" ;
-        }}
-      
+        };
