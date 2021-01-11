@@ -1,3 +1,4 @@
+
 let body = document.querySelector("#body")
 body.innerHTML = `
   <div class="container w3-center w3-animate-right">
@@ -131,7 +132,7 @@ body.innerHTML = `
   <div class="icon-bar">
     <a href="https://github.com/dakotacookson?tab=projects" class="github"><i class="fa fa-github"></i></a>
     <a href="https://www.linkedin.com/in/dakota-cookson-6003b0178/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-   </div>
+   </div>`
 function backpush() {
       location.href = "https://github.com/dakotacookson/Code-coffer" ;
       };
