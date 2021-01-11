@@ -133,8 +133,6 @@ body.innerHTML = `
     <a href="https://github.com/dakotacookson?tab=projects" class="github"><i class="fa fa-github"></i></a>
     <a href="https://www.linkedin.com/in/dakota-cookson-6003b0178/" class="linkedin"><i
         class="fa fa-linkedin"></i></a>
-    <a href="https://www.youtube.com/user/zazitheangel" class="youtube"><i class="fa fa-youtube"></i></a>`
-
     function backpush() {
       location.href = "https://github.com/dakotacookson/Code-coffer" ;
       }
@@ -142,5 +140,5 @@ body.innerHTML = `
         location.href = "https://github.com/dakotacookson/Social-Stories-Aplication" ;
         }
         function Personalpush() {
-          location.href = "http://firsttextadventure.atwebpages.com/" ;
+          location.href = "" ;
           }
